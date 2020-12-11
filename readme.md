@@ -41,7 +41,7 @@ $ ./venv/bin/activate
 
 And then run the server using `uvicorn`.
 ```
-(venv) $ uvicorn app:app
+$ uvicorn app:app
 ```
 
 If for some reason you dont want to activate the environment, you can run the server using:
