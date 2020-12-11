@@ -39,21 +39,14 @@ Linux:
 $ ./venv/bin/activate
 ```
 
-And then run the server using `uvicorn`.
+And you can run the server using
+```
+$ python start.py
+```
+
+you can also run the server using `uvicorn`.
 ```
 $ uvicorn app:app
-```
-
-If for some reason you dont want to activate the environment, you can run the server using:
-
-Windows:
-```
-$ .\venv\Scripts\python.exe -m uvicorn app:app
-```
-
-Linux:
-```
-$ ./venv/bin/python -m uvicorn app:app
 ```
 
 ## Development
