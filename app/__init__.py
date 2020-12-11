@@ -1,0 +1,1 @@
+from .main import app # required for uvicorn to work
