@@ -54,3 +54,15 @@ $ uvicorn app:app
 If you want to install any extra dependencies, **first activate the environment** and then run `pip`.
 
 > Don't forget to add the dependency in `requirements.txt` after you install it!
+
+## Production
+
+Build a docker image by using,
+```
+$ docker build -t fastapi-template:0.0.1 .
+```
+
+and run the image using,
+```
+$ docker run -p 8000:8000 fastapi-template:0.0.1
+```
